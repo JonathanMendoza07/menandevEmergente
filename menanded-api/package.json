@@ -1,0 +1,39 @@
+{
+  "name": "api-menandev",
+  "version": "1.0.0",
+  "description": "Api for services of control and data of app menandev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:moncayo-personal/portal-ficha-tecnica/api.git"
+  },
+  "keywords": [
+    "api",
+    "laundry",
+    "rest-api",
+    "node-js"
+  ],
+  "author": "Andres MZ, Jonathan Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/moncayo-personal/portal-ficha-tecnica/api/issues"
+  },
+  "homepage": "https://gitlab.com/moncayo-personal/portal-ficha-tecnica/api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mssql": "^8.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
